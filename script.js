@@ -9,6 +9,7 @@ function addRecommendation() {
     document.getElementById("all_recommendations").appendChild(element);
     recommendation.value = "";
   }
+  showPopup(true);
 }
 
 function showPopup(bool) {
